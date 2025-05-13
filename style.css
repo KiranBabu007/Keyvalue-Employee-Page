@@ -78,6 +78,7 @@ header{
 .details-card{
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding:20px;
     align-items: center;
@@ -86,8 +87,11 @@ header{
     margin-top: 20px;
     
 }
+
+
 .details label{
     font-size: 16px;
+    font-weight: 500;
 }
 
 .details input {
@@ -96,8 +100,9 @@ header{
     box-shadow: black;
     width:450px;
     height: 50px;
-    padding:5px;
-    border:0px solid;
+    padding:10px;
+    border:.5px solid lightgray;
+    border-radius: 8px;
     background-color: #FAFAFA;
 }
 
